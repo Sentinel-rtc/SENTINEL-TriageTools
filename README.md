@@ -3,7 +3,7 @@ An open-source repository for scripts and algorithms to assess pedestrian head i
 
 ## Stage 1
 This stage involves comparinging injuries criteria for estimating head injruies. All 23 injuries criteria for head avaiable in literature will be implemented in python and compared objectivly for their predictive performance. 
-1. [Wayne State Tolerance Curve (WSTC)](https://github.com/Sentinel-rtc/SENTINEL-TriageTools/tree/main/Wayne%20State%20Tolerance%20Curve%20(WSTC))
+1. [Wayne State Tolerance Curve (WSTC)](https://github.com/Sentinel-rtc/SENTINEL-TriageTools/tree/main/Wayne%20State%20Tolerance%20Curve)
 2. [Severity Index (SI)](https://github.com/Vadhiraj-Ashrit/SENTINEL-TriageTools/tree/main/Severity%20Index)
 3. [Effective Displacement Index (EDI)](https://github.com/Sentinel-rtc/SENTINEL-TriageTools/tree/main/Effective%20Displacement%20Index)
 4. [Head Injury Criterion (HIC)](https://github.com/Vadhiraj-Ashrit/SENTINEL-TriageTools/tree/main/Head%20Injury%20Criterion)
