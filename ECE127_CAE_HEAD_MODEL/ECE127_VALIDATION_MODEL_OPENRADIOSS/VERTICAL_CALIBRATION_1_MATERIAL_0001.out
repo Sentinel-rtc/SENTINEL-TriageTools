@@ -1,0 +1,284 @@
+ VERTICAL_CALIBRATION_1_MATERIAL_0001.out
+************************************************************************
+**                                                                    **
+**                                                                    **
+**                         OpenRadioss Engine                         **
+**                                                                    **
+**            Non-linear Finite Element Analysis Software             **
+**                                                                    **
+**                                                                    **
+**                                                                    **
+**                  Windows 64 bits, Intel compiler                   **
+**                 Extended Single Precision Version                  **
+**                                                                    **
+**                                                                    **
+** CommitID: 11c984186dcb3aa4c74ba829cef5a6fa1d24a34c                 **
+************************************************************************
+** OpenRadioss Software                                               **
+** COPYRIGHT (C) 1986-2025 Altair Engineering, Inc.                   **
+** Licensed under GNU Affero General Public License.                  **
+** See License file.                                                  **
+************************************************************************
+ 
+ NUMBER OF SPMD DOMAINS           1
+ NUMBER OF THREADS PER DOMAIN     4
+ NUMBER OF HMPP PROCESSES         4
+  
+ COMPUTATION HARDWARE DESCRIPTION
+  
+ HOSTNAME     CPU TYPE, FREQUENCY AND MEMORY
+ CUA-5CD046J2Y4   Intel(R) Core(TM) i7-10510U CPU @ 1.80GHz (x86_64), 2300 MHz,   6142 MB RAM,  21094 MB swap
+  
+ STACKSIZE  . . . . . . . . . . . . . . . . . . . . 1430 MB
+ THREAD STACKSIZE . . . . . . . . . . . . . . . . . 400 MB
+ 
+************************************************************************
+
+
+ VERTICAL_CALIBRATION_1_MATERIALD01                                              
+
+
+ FINAL TIME . . . . . . . . . . . . . . . . . . .  0.5000000E-02
+
+ TIME INTERVAL FOR TIME HISTORY PLOTS . . . . . .  0.1000000E-04
+
+ TIME STEP SCALE FACTOR . . . . . . . . . . . . .  0.9000000    
+
+ MINIMUM TIME STEP  . . . . . . . . . . . . . . .   0.000000    
+
+
+ NODAL TIME STEP SCALE FACTOR,  . . . . . . . . .  0.9000000    
+ NODAL MINIMUM TIME STEP. . . . . . . . . . . . .  0.9257400E-06
+ MIN. TIME FLAG . . . . . . . . . . . . . . . . .     8
+    1:STOP. . . . . . . . . . . . . . . . . . . . 
+    3:INCREASE MASS, ORIGINAL FORMULATION . . . . 
+    8:INCREASE MASS, IMPROVED FORMULATION . . . . 
+
+
+ BRICK TIME STEP SCALE FACTOR . . . . . . . . . .  0.9000000    
+ BRICK MINIMUM TIME STEP. . . . . . . . . . . . .   0.000000    
+ MIN. TIME STEP FLAG (1:STOP RUN, 2:DELETE BRICK)     0
+
+ QUAD TIME STEP SCALE FACTOR. . . . . . . . . . .  0.9000000    
+ QUAD MINIMUM TIME STEP . . . . . . . . . . . . .   0.000000    
+ MIN. TIME STEP FLAG (1:STOP RUN, 2:DELETE QUAD).     0
+
+ SHELL TIME STEP SCALE FACTOR . . . . . . . . . .  0.9000000    
+ SHELL MINIMUM TIME STEP. . . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG (1:STOP, 2:DELETE, 3:SMALL STRAIN)    0
+
+ TRUSS TIME STEP SCALE FACTOR . . . . . . . . . .  0.9000000    
+ TRUSS MINIMUM TIME STEP. . . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG (1:STOP, 2:DELETE). . . . . . . .     0
+
+ BEAM TIME STEP SCALE FACTOR. . . . . . . . . . .  0.9000000    
+ BEAM MINIMUM TIME STEP . . . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG (1:STOP, 2:DELETE). . . . . . . .     0
+
+ SPRING TIME STEP SCALE FACTOR. . . . . . . . . .  0.9000000    
+ SPRING MINIMUM TIME STEP . . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG (1:STOP, 2:DELETE). . . . . . . .     0
+
+ AIRBAG TIME STEP SCALE FACTOR. . . . . . . . . .  0.9000000    
+ AIRBAG MINIMUM TIME STEP . . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG (1:STOP). . . . . . . . . . . . .     0
+
+ CONTACT TIME STEP SCALE FACTOR . . . . . . . . .  0.9000000    
+ CONTACT MINIMUM TIME STEP. . . . . . . . . . . .   0.000000    
+ MIN. TIME FLAG(1:STOP, 2:REMOVE NODE FROM INTERF)    0
+
+ PRINTOUT CYCLE FREQUENCY . . . . . . . . . . . .  -100
+
+ RESTART CYCLE FREQUENCY. . . . . . . . . . . . .   10000000
+
+ MAXIMUM RESTART WRITE BEFORE OVERWRITE . . . . .     0
+
+ INVERS: INPUT DECK VERSION . . . . . . . . . . .   101
+ ITTYP : FLAG FOR TYPE OF T-FILE. . . . . . . . .     4
+
+
+ TIME FOR FIRST ANIMATION-FILE PLOT . . . . . . .   0.000000    
+ TIME INTERVAL FOR ANIMATION-FILE PLOTS . . . . .  0.2000000E-02
+ TIME TO STOP ANIMATION-FILE PLOTS. . . . . . . .  0.1000000E+21
+ SENSOR FOR ANIMATION-FILE PLOTS. . . . . . . . .          0
+ TIME INTERVAL FOR SENSOR ANIMATION-FILE PLOTS. .   0.000000    
+
+ VARIABLE SAVED ON ANIMATION FILES (1: YES) :
+      PLASTIC STRAIN. . . . . .     1
+      DENSITY     (SOLID ONLY).     0
+      SPECIFIC ENERGY . . . . .     1
+      HOURGLASS ENERGY. . . . .     0
+      TEMPERATURE (SOLID ONLY).     0
+      THICKNESS   (SHELL ONLY).     0
+      PRESSURE    (SOLID ONLY).     0
+      VON MISES . . . . . . . .     0
+      TURBULENT ENERGY (FLUID).     0
+      TURBULENT VISCOSITY(FLUID)    0
+      VORTICITY (FLUID) . . . .     0
+ NODAL VALUES SAVED ON ANIMATION FILES (1: YES) :
+      PRESSURE. . . . . . . . .     0
+      DENSITY . . . . . . . . .     0
+      TEMPERATURE . . . . . . .     0
+ VECTOR SAVED ON ANIMATION FILES (1: YES) :
+      VELOCITY VECTOR . . . . .     1
+      DISPLACEMENT VECTOR . . .     1
+      ACCELERATION VECTOR . . .     1
+      CONTACT FORCES. . . . . .     0
+      INTERNAL FORCES . . . . .     0
+      EXTERNAL FORCES . . . . .     0
+      SECTION RBY RWALL FORCES.     0
+      ROTATIONAL VELOCITY VECTOR    0
+      CONTACT PRESSURE (VECTORS)    0
+ SHELL TENSOR SAVED ON ANIMATION FILES (1: YES) :
+      MEMBRANE STRESS . . . . .     0
+      BENDING STRESS(MOMENT/T^2)    0
+      UPPER LAYER STRESS. . . .     0
+      LOWER LAYER STRESS. . . .     0
+      MEMBRANE STRAIN . . . . .     0
+      CURVATURE . . . . . . . .     0
+      UPPER LAYER STRAIN. . . .     0
+      LOWER LAYER STRAIN. . . .     0
+ NODAL MASS SAVED ON ANIMATION FILES (1: YES) :    0
+ KEEP DELETED ELEMENT (1: YES) :    0
+
+
+ INITIAL TIME STEP. . . . . . . . . . . . . . . .   0.000000    
+ MAXIMUM TIME STEP. . . . . . . . . . . . . . . .  0.1000000E+31
+
+ PARALLEL ARITHMETIC OFF
+ NUMBER OF INTERFACES TO BE ELIMINATED. . . . . .        0
+
+ NUMBER OF SOLID  ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF QUAD   ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF SHELL  ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF TRUSS  ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF BEAM   ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF SPRING ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF SH_3N  ELEMENT BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF  SPH PARTICLES BLOCKS TO BE ELIMINATED        0
+
+ NUMBER OF RIGID LINKS. . . . . . . . . . . . . .        0
+
+ NUMBER OF NEW BOUNDARY CONDITIONS. . . . . . . .        0
+
+ 19/06/2025
+   CYCLE    TIME      TIME-STEP  ELEMENT          ERROR  I-ENERGY    K-ENERGY T  K-ENERGY R  EXT-WORK     MAS.ERR     TOTAL MASS  MASS ADDED
+       0   0.000      0.3046E-05 NODE        2713   0.0%   0.000      0.1659E+05   0.000       0.000       0.000      0.5734E-02   0.000    
+     ANIMATION FILE: VERTICAL_CALIBRATION_1_MATERIALA001 WRITTEN
+     100  0.3046E-03  0.3046E-05 NODE        2713   0.0%  0.2489E-05  0.1659E+05  0.4459E-10   0.000       0.000      0.5734E-02   0.000    
+     200  0.6092E-03  0.3046E-05 NODE        2713  -0.0%  0.9844E-05  0.1659E+05  0.1170E-09   0.000       0.000      0.5734E-02   0.000    
+     300  0.9138E-03  0.3046E-05 NODE        2713  -0.0%  0.1992E-04  0.1659E+05  0.2353E-11   0.000       0.000      0.5734E-02   0.000    
+     400  0.1218E-02  0.3046E-05 NODE        2713   0.0%  0.3359E-04  0.1659E+05  0.3135E-10   0.000       0.000      0.5734E-02   0.000    
+     500  0.1492E-02  0.2399E-05 NODE        3704  -0.0%   102.3      0.1648E+05  0.4080E-10   0.000       0.000      0.5734E-02   0.000    
+     600  0.1732E-02  0.2396E-05 NODE        3704  -0.1%   700.3      0.1587E+05  0.1023       0.000       0.000      0.5734E-02   0.000    
+     700  0.1972E-02  0.2397E-05 NODE        3704  -0.1%   1746.      0.1482E+05   3.249       0.000       0.000      0.5734E-02   0.000    
+     ANIMATION FILE: VERTICAL_CALIBRATION_1_MATERIALA002 WRITTEN
+     800  0.2117E-02  0.9573E-06 NODE        3737  -0.1%   2574.      0.1399E+05   2.269       0.000      0.2112E-05  0.5734E-02  0.1211E-07
+     900  0.2221E-02  0.9454E-06 NODE        3737  -0.2%   3370.      0.1319E+05  0.2878E-01   0.000      0.7797E-05  0.5734E-02  0.4470E-07
+    1000  0.2319E-02  0.1072E-05 NODE        4145  -0.2%   4300.      0.1224E+05  0.7128       0.000      0.7797E-05  0.5734E-02  0.4470E-07
+    1100  0.2414E-02  0.9257E-06 NODE        4177  -0.3%   5307.      0.1123E+05   2.060       0.000      0.8365E-05  0.5734E-02  0.4796E-07
+    1200  0.2507E-02  0.9257E-06 NODE        4177  -0.4%   6410.      0.1011E+05   1.684       0.000      0.1153E-04  0.5734E-02  0.6612E-07
+    1300  0.2599E-02  0.9257E-06 NODE        3709  -0.5%   7583.       8924.      0.1225       0.000      0.2315E-04  0.5734E-02  0.1327E-06
+    1400  0.2692E-02  0.9257E-06 NODE        3701  -0.6%   8767.       7718.      0.3698       0.000      0.3679E-04  0.5734E-02  0.2109E-06
+    1500  0.2785E-02  0.9258E-06 NODE        3737  -0.7%  0.1004E+05   6430.       1.579       0.000      0.3679E-04  0.5734E-02  0.2109E-06
+    1600  0.2879E-02  0.9257E-06 NODE        4141  -0.9%  0.1129E+05   5143.      0.8702       0.000      0.3777E-04  0.5734E-02  0.2165E-06
+    1700  0.2971E-02  0.9257E-06 NODE        4141  -1.1%  0.1246E+05   3947.      0.9944E-01   0.000      0.3906E-04  0.5734E-02  0.2240E-06
+    1800  0.3064E-02  0.9257E-06 NODE        3777  -1.2%  0.1354E+05   2838.      0.2133E-02   0.000      0.3915E-04  0.5734E-02  0.2244E-06
+    1900  0.3156E-02  0.9257E-06 NODE        4205  -1.4%  0.1448E+05   1870.      0.1045       0.000      0.4256E-04  0.5734E-02  0.2440E-06
+    2000  0.3249E-02  0.9257E-06 NODE        3737  -1.6%  0.1525E+05   1080.      0.4914       0.000      0.4589E-04  0.5734E-02  0.2631E-06
+    2100  0.3341E-02  0.9257E-06 NODE        4173  -1.7%  0.1581E+05   498.0      0.4179       0.000      0.4727E-04  0.5734E-02  0.2710E-06
+    2200  0.3434E-02  0.9257E-06 NODE        3737  -1.7%  0.1616E+05   138.0      0.3260       0.000      0.4727E-04  0.5734E-02  0.2710E-06
+    2300  0.3527E-02  0.9258E-06 NODE        4173  -1.8%  0.1628E+05   16.87      0.1069       0.000      0.4727E-04  0.5734E-02  0.2710E-06
+    2400  0.3619E-02  0.9258E-06 NODE        4173  -1.7%  0.1617E+05   128.2      0.2914E-01   0.000      0.4727E-04  0.5734E-02  0.2710E-06
+    2500  0.3712E-02  0.9257E-06 NODE        3777  -1.7%  0.1589E+05   424.0      0.4001       0.000      0.4727E-04  0.5734E-02  0.2710E-06
+    2600  0.3804E-02  0.9257E-06 NODE        4145  -1.7%  0.1548E+05   821.2       2.570       0.000      0.4743E-04  0.5734E-02  0.2719E-06
+    2700  0.3897E-02  0.9554E-06 NODE        4145  -1.8%  0.1504E+05   1233.       3.772       0.000      0.4759E-04  0.5734E-02  0.2729E-06
+    2800  0.3997E-02  0.1056E-05 NODE        3629  -1.9%  0.1467E+05   1595.       2.706       0.000      0.4759E-04  0.5734E-02  0.2729E-06
+     ANIMATION FILE: VERTICAL_CALIBRATION_1_MATERIALA003 WRITTEN
+    2900  0.4103E-02  0.1060E-05 NODE        3701  -1.9%  0.1437E+05   1899.      0.5106       0.000      0.4759E-04  0.5734E-02  0.2729E-06
+    3000  0.4202E-02  0.9258E-06 NODE        3701  -1.9%  0.1413E+05   2137.      0.5803E-01   0.000      0.4759E-04  0.5734E-02  0.2729E-06
+    3100  0.4295E-02  0.9960E-06 NODE        3701  -1.9%  0.1397E+05   2297.      0.2438       0.000      0.4767E-04  0.5734E-02  0.2733E-06
+    3200  0.4427E-02  0.2377E-05 NODE        3704  -1.9%  0.1381E+05   2450.      0.8773E-01   0.000      0.4767E-04  0.5734E-02  0.2733E-06
+    3300  0.4665E-02  0.2380E-05 NODE        3704  -1.9%  0.1367E+05   2595.      0.5359E-01   0.000      0.4767E-04  0.5734E-02  0.2733E-06
+    3400  0.4903E-02  0.2383E-05 NODE        3704  -1.9%  0.1364E+05   2626.      0.1536       0.000      0.4767E-04  0.5734E-02  0.2733E-06
+
+     RESTART FILES: VERTICAL_CALIBRATION_1_MATERIAL_0001_[0001-0001].rst WRITTEN
+     -------------
+
+     ANIMATION FILE: VERTICAL_CALIBRATION_1_MATERIALA004 WRITTEN
+  
+                           ** CPU USER TIME **
+  
+  
+                        ** SUMMARY **
+  
+ #PROC  CONTSORT  CONTFOR   ELEMENT   KINCOND   INTEG     IO        T0        ASM       RESOL    
+   1   .7219E+01 .1170E+02 .8238E+02 .2511E+02 .5844E+01 .1395E+02 .5625E+00 .1192E+02 .1619E+03
+  
+ 
+                   ** CUMULATIVE CPU TIME SUMMARY **
+  
+ CONTACT SORTING.............: .7219E+01     4.46 % 
+ CONTACT FORCES..............: .1170E+02     7.23 % 
+ .. INCLUDING CONTACT NORMALS: .5844E+01     3.61 % 
+ ELEMENT FORCES..............: .8238E+02    50.88 % 
+ KINEMATIC COND..............: .2511E+02    15.51 % 
+ INTEGRATION.................: .5844E+01     3.61 % 
+ ASSEMBLING..................: .1192E+02     7.36 % 
+ OTHERS (including I/O)......: .1773E+02    10.95 % 
+ TOTAL.......................: .1619E+03   100.00 % 
+  
+  
+                           ** ELAPSED TIME **
+  
+  
+                        ** SUMMARY **
+  
+ #PROC  CONTSORT  CONTFOR   ELEMENT   KINCOND   INTEG     IO        T0        ASM       RESOL    
+   1   .1635E+01 .3399E+01 .2106E+02 .6814E+01 .1885E+01 .3998E+01 .2060E+00 .2644E+01 .4238E+02
+  
+                   ** MEMORY USAGE STATISTICS **
+  
+ TOTAL MEMORY USED .........................:      147 MB
+ MAXIMUM MEMORY PER PROCESSOR...............:      147 MB
+ MINIMUM MEMORY PER PROCESSOR...............:      147 MB
+ AVERAGE MEMORY PER PROCESSOR...............:      147 MB
+  
+                   ** DISK USAGE STATISTICS **
+  
+ TOTAL DISK SPACE USED .....................:        100 MB
+ ANIMATION/H3D/TH/OUTP SIZE ................:         25 MB
+ RESTART FILE SIZE .........................:         75 MB
+  
+                   ** COMPUTE TIME INFORMATION **
+                        ** CURRENT ENGINE **
+  
+ EXECUTION STARTED .........................:      2025/06/19  14:03:30
+ EXECUTION COMPLETED .......................:      2025/06/19  14:04:12
+  
+ ELAPSED TIME     =         42.59 s
+                          0:00:42
+
+
+
+     NORMAL TERMINATION      
+
+
+
+     TOTAL NUMBER OF CYCLES  :    3435
+
+  
+                   ** COMPUTE RUNTIME INFORMATION SUMMARY **
+  
+        STARTER RUNTIME =          4.91s (00:00:04)
+ # 001   ENGINE RUNTIME =         42.59s (00:00:42)
+ ------------------------------ 
+ STARTER+ENGINE RUNTIME =         47.50s (00:00:47)
+  
